@@ -14,7 +14,6 @@ const Home = () => {
             <Events></Events>
             <QRScanner></QRScanner>
             <SimplifyTicket></SimplifyTicket>
-            
         </div>
     );
 };
