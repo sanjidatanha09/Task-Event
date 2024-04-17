@@ -9,7 +9,7 @@ const Banner = () => {
             <div className="carousel w-full h-[400px] md:h-[500px] lg:h-[600px] rounded-3xl mt-10">
 
                 <div id="slide1" className="carousel-item relative w-full ">
-                    <img src={banner} className="w-[100%] rounded-3xl" />
+                    <img src={banner} className="w-[95%] mx-auto md:w-[100%] rounded-3xl" />
                     <div className="absolute flex items-center  h-full left-0  top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)] rounded-3xl">
                         <div className='text-white space-y-3 pl-24 w-[300px] md:w-[500px]  lg:w-[70%] my-10 '>
                             <h1 className='text-xl md:text-3xl lg:text-4xl font-bold'>CMA Fest</h1>

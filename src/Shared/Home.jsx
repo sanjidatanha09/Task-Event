@@ -8,7 +8,7 @@ import SimplifyTicket from '../Pages/SimplifyTicket';
 
 const Home = () => {
     return (
-        <div className=' w-full md:w-[95%] lg:w-[75%] md:mx-auto mx-2'>
+        <div className=' w-full md:w-[95%] lg:w-[70%] md:mx-auto mx-2'>
             <Navbar></Navbar>
             <Banner></Banner>
             <Events></Events>

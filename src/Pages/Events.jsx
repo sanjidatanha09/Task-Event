@@ -9,17 +9,17 @@ import Watch from "../../public/Image/Group.png"
 
 const Events = () => {
     return (
-        <>
+        <div className='w-[95%] md:w-[100%] mx-auto'>
 
             <div className='mt-10'>
                 <h1 className='font-bold  text-black text-center text-4xl'>Events</h1>
-                <div className='flex justify-center gap-5 mt-5 items-start'>
-                    <p className="font-medium text-base text-black hover-element">All</p>
+                <div className='grid grid-cols-3 md:flex justify-center gap-1 md:gap-5 mt-5 md:items-start  items-center w-[90%] mx-auto md:w-full'>
+                    <p className="font-medium text-base text-black hover-element text-center">All</p>
                     <p className='font-medium text-base text-black hover-element'>For You</p>
                     <p className='font-medium text-base text-black hover-element'>This Day</p>
                     <p className='font-medium text-base text-black hover-element'>This Week</p>
                     <p className='font-medium text-base text-black hover-element'>Music</p>
-                    <p className='font-medium text-base text-black hover-element'>Union</p>
+                    <p className='font-medium text-base text-black hover-element text-center'>Union</p>
 
                 </div>
                 <div className='mt-5 flex flex-col lg:flex-row items-center justify-between gap-4'>
@@ -142,13 +142,15 @@ const Events = () => {
             </div>
             {/* bg-gradient-to-r from-cyan-500 to-blue-500 */}
 
+            {/* 2nd part */}
+
             <div className='flex flex-col lg:flex-row mt-10 gap-2 bg-violet-600 rounded-3xl justify-between items-start'> 
 
                 <div className='w-[100%] lg:w-[50%]'>
-                    <img className='p-10 lg:w-[90%] mx-auto h-[400px]' src={Host} alt="" />
+                    <img className='lg:p-10 lg:w-[90%] mx-auto h-[400px]' src={Host} alt="" />
                 </div>
                 <div className=' text-white w-[100%] lg:w-[50%] mx-auto relative'>
-                    <h1 className='px-10 pt-10 font-bold text-xl pb-4 w-full mx-auto'>Host Your Event Easily & Automatedly With Us</h1>
+                    <h1 className='px-5 md:px-10 pt-10 font-bold text-xl pb-4 w-full mx-auto'>Host Your Event Easily & Automatedly With Us</h1>
                     <h5 className='px-10 text-base font-bold pb-4'>We Provide The Best Event Ticketing & Management Solutions</h5>
 
                     <div className='px-10 flex items-start pb-2'>
@@ -174,7 +176,7 @@ const Events = () => {
                     </div>
                     <div className='w-[140px] md:w-[200px] lg:w-[300px] absolute top-50 bottom-0 md:top-12 lg:top-28 right-0 p-0 '>
 
-                        <img className='w-[100%]  text-end h-' src={Watch} alt="" />
+                        <img className='w-[100%]  text-end ' src={Watch} alt="" />
 
                     </div>
                     
@@ -183,7 +185,7 @@ const Events = () => {
 
             </div>
 
-        </>
+        </div>
     );
 };
 
