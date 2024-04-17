@@ -5,6 +5,7 @@ import img1 from "../../public/Image/Rectangle 16.png"
 import img2 from "../../public/Image/Rectangle 16-1.png"
 import img3 from "../../public/Image/Rectangle 16-2.png"
 import Host from "../../public/Image/Group 29.png"
+import Watch from "../../public/Image/Group.png"
 
 const Events = () => {
     return (
@@ -139,16 +140,46 @@ const Events = () => {
                     </div>
                 </div>
             </div>
+            {/* bg-gradient-to-r from-cyan-500 to-blue-500 */}
 
-            <div className=''> 
+            <div className='flex flex-col lg:flex-row mt-10 gap-2 bg-violet-600 rounded-3xl justify-between items-start'> 
 
-                <div>
-                    <img src={Host} alt="" />
+                <div className='w-[100%] lg:w-[50%]'>
+                    <img className='p-10 lg:w-[90%] mx-auto h-[400px]' src={Host} alt="" />
                 </div>
-                <div>
-                    <h1>Host Your Event Easily & Automatedly With Us</h1>
-                    <h5>We Provide The Best Event Ticketing & Management Solutions</h5>
+                <div className=' text-white w-[100%] lg:w-[50%] mx-auto relative'>
+                    <h1 className='px-10 pt-10 font-bold text-xl pb-4 w-full mx-auto'>Host Your Event Easily & Automatedly With Us</h1>
+                    <h5 className='px-10 text-base font-bold pb-4'>We Provide The Best Event Ticketing & Management Solutions</h5>
+
+                    <div className='px-10 flex items-start pb-2'>
+                        <img src="https://i.ibb.co/4TbJQ7V/pngtree-checkmark-right-icon-tick-circle-png-image-4647427.png" alt="" className='rounded-full w-[20px]' />
+                        <p className='text-sm pl-2'>Host your Event With Easy Steps!</p>
+
+                    </div>
+                    <div className='px-10 flex  items-start pb-2'>
+                        <img src="https://i.ibb.co/4TbJQ7V/pngtree-checkmark-right-icon-tick-circle-png-image-4647427.png" alt="" className='rounded-full w-[20px]' />
+                        <p className='text-sm pl-2'>Automated Payment System & Ticket Will Be Sent To Mall!</p>
+
+                    </div>
+                    <div className='px-10 flex items-start pb-2'>
+                        <img src="https://i.ibb.co/4TbJQ7V/pngtree-checkmark-right-icon-tick-circle-png-image-4647427.png" alt="" className='rounded-full w-[20px]' />
+                        <p className='text-sm pl-2'>Access To Registration And Transaction Reports</p>
+
+                    </div>
+
+                    <div className='px-10 flex items-start pb-24 md:pb-3'>
+                        <img src="https://i.ibb.co/4TbJQ7V/pngtree-checkmark-right-icon-tick-circle-png-image-4647427.png" alt="" className='rounded-full w-[20px]' />
+                        <p className='text-sm pl-2'>Send Bulk Personalized Mail With Attachments.</p>
+
+                    </div>
+                    <div className='w-[140px] md:w-[200px] lg:w-[300px] absolute top-50 bottom-0 md:top-12 lg:top-28 right-0 p-0 '>
+
+                        <img className='w-[100%]  text-end h-' src={Watch} alt="" />
+
+                    </div>
+                    
                 </div>
+              
 
             </div>
 
